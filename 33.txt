@@ -22,7 +22,7 @@ class Employee(User):
     
     def getAge(self):
         return self.age
-em = Employee('Kit','Sergei')
+em = Employee('Sofa','Egor')
 print(em.getName())
 print(em.getSurn())
 em.setAge(43)
